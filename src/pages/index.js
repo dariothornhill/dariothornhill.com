@@ -48,10 +48,10 @@ class Index extends React.Component {
                   <h2>About Dario</h2>
                 </header>
                 <p>I am a keen problem solver and a computer science enthusiast. I have experience in several programming languages and programming paradigms and I am very quick to learn new languages, methodologies and technologies.Despite being a self described geek, I am also quite sociable and generally bring soft skills to the working environment which contribute to excellent teamwork.</p><ul className="actions">
-                  <li><a href="https://linkedin.com/in/dario-thornhill-74273134" className="button">Learn More</a></li>
+                  <li><a href="https://linkedin.com/in/dario-thornhill-74273134" target="__blank" className="button">Learn More</a></li>
                 </ul>
               </div>
-              <span className="image"><img src={photo} alt="" /></span>
+              <span className="image"><img src={photo} alt="portrait" /></span>
             </div>
           </section>
 
@@ -79,7 +79,7 @@ class Index extends React.Component {
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="#footer" className="button">Contact Me</Link></li>
+                <li><a href="https://linkedin.com/in/dario-thornhill-74273134" className="button">Contact Me</a></li>
               </ul>
             </footer>
           </section>
